@@ -1,0 +1,16 @@
+@import "buttonsList";
+
+.button-game-real {
+  @extend .buttonPrimary;
+  @extend .buttonSmall;
+}
+
+.button-game-fun {
+  @extend .buttonSecondary;
+  @extend .buttonSmall;
+}
+
+.button-form-single-submit {
+  @extend .buttonPrimary;
+  @extend .buttonBig;
+}
